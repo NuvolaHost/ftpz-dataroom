@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ftpzdomi/dataroom.ftpz.com.br/
+    - /bin/cp -R index.html $DEPLOYPATH
